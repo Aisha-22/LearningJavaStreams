@@ -56,6 +56,14 @@ public class LiveDemo {
 
         Filter f = new Filter();
         f.setFilter();
+
+        //JavaStreamsExample 1:
+        JavaStreamExample1 example1 =new JavaStreamExample1();
+        example1.executeElements();
+
+        //This contains a non-terminal operation
+        JavaStreamExample2 example2 = new JavaStreamExample2();
+        example2.nonTerminalOps();
     }
     private static String getPriceVeggie(WebElement s) {
 
